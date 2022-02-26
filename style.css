@@ -285,7 +285,7 @@ nav ul li{
     .brand {
        display: none;
     }
-    nav ul{
+    nav ul .hideit{
         display: none;
     }
     nav {
