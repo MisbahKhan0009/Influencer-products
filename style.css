@@ -16,7 +16,7 @@ nav{
     height: 80px;
     width: 50%;
     background-color: white;
-    height: 139.2;
+    height: 139.2px;
     width: 100%;
     margin-top: 25px;
     
@@ -265,3 +265,41 @@ nav ul li{
 
 /* media queries */
 
+@media only screen and (max-width:688px){
+    .product-list{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .container_2{
+        margin-top: 10px;
+        width: 700px;
+        height: 4780px;
+        padding-left: 25px;
+    
+    }
+    .brand {
+       display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    .logo{
+        padding: 27px;
+    }
+    .containers{
+        margin-left: 10px;
+        margin-right: 5px;
+        width: 688px;
+        height: 475px;
+        flex: none;
+    }
+    .container-details h1{
+        font-size: 28px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .heads{
+        text-align: justify;
+        padding-left: 20px;
+        margin-bottom: 25px;
+    }
+}
