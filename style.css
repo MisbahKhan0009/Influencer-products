@@ -297,16 +297,21 @@ nav ul li{
         margin-right: 5px;
         height: 775px;
         display: block;
-        text-align: left;
+        text-align: center;
+
     }
     .container-details h1{
         font-size: 28px;
         font-weight: 700;
-        text-align: left;
+        text-align: center;
+    }
+    .book{
+        margin: 0 auto;
     }
     .container-details{
         width: 329px;
         height: 400px;
+        
     }
     .container-image{
         width: 329px;
