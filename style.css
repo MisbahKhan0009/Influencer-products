@@ -12,13 +12,37 @@ body{
     padding-left: 8px;
 }
 /* menubar */
-.logo{
-    font-weight: 700;
-    font-size: 24px;
+nav{
+    height: 80px;
+    width: 50%;
+    background-color: white;
+    height: 139.2;
+    width: 100%;
+    margin-top: 25px;
+    
 }
-.logo a{
+nav a{
     text-decoration: none;
-    color:#3A3A3A;
+    color: #3A3A3A;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    margin-right: 120px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding-right: 34px;
+    
+}
+.logo{
+    font-size: 35px;
+    font-weight: 700;
+    color: #3A3A3A;
+    padding: 120px;
+     
+
 }
 /* padding the container */
 .containers{
@@ -71,9 +95,9 @@ body{
     transition: transform 1.75s ease-in-out;
 }
 .book:hover{
-    background-color: #5A20CB;
+    background-color: #03203C;
     transition-duration: 1.5s;
-    color: #808080ab;
+    color:#ffffffc9;
 }
 
 /* brands */
@@ -147,6 +171,13 @@ body{
     text-align: right;
     padding-top: 50px;
     padding-right: 240px;
+    font-size: 20px;
+}
+
+.see a:hover{
+    transition: 1.5s ease-in-out;
+    color: #03203C;
+    
 }
 
 /* pro section */
@@ -221,8 +252,9 @@ body{
 }
 .copyright{
     color: #ffffffc9;
-    width: 262px;
+    width: 310px;
     height: 200px;
+    text-align: center;
 }
 .copyright img{
     width: 32px;
@@ -230,3 +262,6 @@ body{
     color: #ffffffc9;
     padding-left: 15px;
 }
+
+/* media queries */
+
