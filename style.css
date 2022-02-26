@@ -220,7 +220,6 @@ nav ul li{
 /* upcoming */
 .upcoming{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
     margin-top: 60px;
     width: 1110px;
     height: 440px;
@@ -264,6 +263,7 @@ nav ul li{
 }
 
 /* media queries */
+/* mobile */
 
 @media only screen and (max-width:688px){
     .product-list{
@@ -271,10 +271,13 @@ nav ul li{
     }
     .container_2{
         margin-top: 10px;
-        width: 700px;
+        width: 323px;
         height: 4780px;
-        padding-left: 25px;
+        padding-left: 0px;
     
+    }
+    .cart{
+        padding-left: 70px;
     }
     .brand {
        display: none;
@@ -282,24 +285,77 @@ nav ul li{
     nav ul{
         display: none;
     }
+    nav {
+        height: 10px;
+    }
     .logo{
-        padding: 27px;
+        padding: 7px;
+        font-size: 1.5em;
     }
     .containers{
         margin-left: 10px;
         margin-right: 5px;
-        width: 688px;
-        height: 475px;
-        flex: none;
+        height: 775px;
+        display: block;
+        text-align: left;
     }
     .container-details h1{
         font-size: 28px;
         font-weight: 700;
-        text-align: center;
+        text-align: left;
+    }
+    .container-details{
+        width: 329px;
+        height: 400px;
+    }
+    .container-image{
+        width: 329px;
+        height: 400px;
+        
+    }
+    .container-image img{
+        width: 250px;
+        height: 300px;
+        padding-left: 40px;
+    }
+    .container-image:hover {
+        transform: scale(1.08) rotate(0deg);
+        transition: transform 1.75s ease-in-out;
     }
     .heads{
-        text-align: justify;
+        text-align: center;
         padding-left: 20px;
-        margin-bottom: 25px;
+        padding-bottom: 10px;
+        font-size: 1.2em;
+    }
+    .product-details{
+        width: 329px;
+        height: 500px;
+    }
+   
+    
+    .see{
+        padding-left: 200px;
+        display: flex;
+        width: 150px;
+    }
+    .upcoming{
+        grid-template-columns: repeat(1,1fr);
+        height: 1500px;
+        width: 329px;
+        padding-left: 0px;
+        margin-top: 10px;
+        margin-left: 5px;
+
+
+    }
+    .upcomings{
+        margin-top: 20px; 
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .products{
+        display: none;
     }
 }
